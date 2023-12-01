@@ -1,0 +1,106 @@
+
+**** 05/21/21 12:57:03 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-dc"  [ D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final-Corect\proiect_cad-pspicefiles\schematic1\dc.
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "dc.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of D:\Homeworks\An 2 sem 2\Tehnici CAD\Projects\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final-Corect\leduri.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.MC 10 TRAN v([LED]) YMAX OUTPUT ALL SEED=200 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_CAD
+R_R22         N23185 N231710 R_R22 261 TC=0,0 
+.model        R_R22 RES R=1 DEV=1% TC1=0 TC2=0
+R_R7         N22863 0 R_R7 1k TC=0,0 
+.model        R_R7 RES R=1 DEV=1% TC1=0 TC2=0
+X_U2B         N22369 SENZOR VCC -VCC SENZOR LM324
+R_R21         0 N23569 R_R21 499 TC=0,0 
+.model        R_R21 RES R=1 DEV=1% TC1=0 TC2=0
+X_U9C         N23743 LED VCC 0 N23667 LM324
+X_U3C         N22583 N22401 VCC -VCC LED LM324
+R_R10         N22401 LED R_R10 4.99k TC=0,0 
+.model        R_R10 RES R=1 DEV=1% TC1=0 TC2=0
+R_R17         N23743 VCC R_R17 1.58k TC=0,0 
+.model        R_R17 RES R=1 DEV=1% TC1=0 TC2=0
+R_R25         N229811 N23003 R_R25 191 TC=0,0 
+.model        R_R25 RES R=1 DEV=1% TC1=0 TC2=0
+X_U1B         N22473 DESCAZUT VCC -VCC DESCAZUT LM324
+V_V1         VCC 0 8
+R_R6         N22863 SENZOR R_R6 1k TC=0,0 
+.model        R_R6 RES R=1 DEV=1% TC1=0 TC2=0
+R_R18         0 N23743 R_R18 2k TC=0,0 
+.model        R_R18 RES R=1 DEV=1% TC1=0 TC2=0
+R_R20         N23569 VCC R_R20 4.3k TC=0,0 
+.model        R_R20 RES R=1 DEV=1% TC1=0 TC2=0
+R_R4         N22473 VCC R_R4 665 TC=0,0 
+.model        R_R4 RES R=1 DEV=1% TC1=0 TC2=0
+R_R26         N23015 VCC R_R26 182 TC=0,0 
+.model        R_R26 RES R=1 DEV=1% TC1=0 TC2=0
+X_U8C         N23379 LED VCC 0 N23367 LM324
+R_R14         N23379 VCC R_R14 357 TC=0,0 
+.model        R_R14 RES R=1 DEV=1% TC1=0 TC2=0
+R_R8         N22583 N22571  1k TC=0,0 
+R_R23         N23197 VCC R_R23 4.12k TC=0,0 
+.model        R_R23 RES R=1 DEV=1% TC1=0 TC2=0
+R_R24         0 N23197 R_R24 1k TC=0,0 
+.model        R_R24 RES R=1 DEV=1% TC1=0 TC2=0
+V_V2         -VCC 0 -8
+R_R13         N23367 N233530 R_R13 191 TC=0,0 
+.model        R_R13 RES R=1 DEV=1% TC1=0 TC2=0
+R_R15         0 N23379 R_R15 2k TC=0,0 
+.model        R_R15 RES R=1 DEV=1% TC1=0 TC2=0
+R_R2         N22369 VCC R_R2 12.1k TC=0,0 
+.model        R_R2 RES R=1 DEV=1% TC1=0 TC2=0
+R_R16         N23667 N236530 R_R16 267 TC=0,0 
+.model        R_R16 RES R=1 DEV=1% TC1=0 TC2=0
+R_R27         0 N23015 R_R27 2k TC=0,0 
+.model        R_R27 RES R=1 DEV=1% TC1=0 TC2=0
+R_R5         N22571 DESCAZUT R_R5 1k TC=0,0 
+.model        R_R5 RES R=1 DEV=1% TC1=0 TC2=0
+X_U6C         N23197 LED VCC 0 N23185 LM324
+R_R19         N23549 N235350 R_R19 261 TC=0,0 
+.model        R_R19 RES R=1 DEV=1% TC1=0 TC2=0
+X_U5C         N23569 LED VCC 0 N23549 LM324
+X_U7C         N23015 LED VCC 0 N23003 LM324
+X_U4D         N22863 N22571 VCC -VCC N22583 LM324
+R_R3         0 N22473 R_R3 2k TC=0,0 
+.model        R_R3 RES R=1 DEV=1% TC1=0 TC2=0
+R_R9         N22401 0 R_R9 1k TC=0,0 
+.model        R_R9 RES R=1 DEV=1% TC1=0 TC2=0
+D_D1         N229811 0 L_VERDE 
+D_D2         N233530 0 L_ALBASTRU 
+D_D3         N236530 0 L_PORTOCALIU 
+D_D4         N231710 0 L_GALBEN 
+D_D5         N235350 0 L_ROSU 
+X_R28         0 0 N22369 POT PARAMS: SET={cursor} VALUE=100K
+.PARAM  cursor=0,65
+-------------------$
+ERROR(ORPSIM-16470): Missing value for param
+
+**** RESUMING dc.cir ****
+.END
+

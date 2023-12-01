@@ -1,0 +1,17 @@
+STATUS: PSpice Model Import Wizard for "Capture" (17.2.0.d001)
+STATUS:  
+   INFO: LIB driven flow
+   INFO: Input File: D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final\leduri.lib
+   INFO: Output File: D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final\leduri.olb
+STATUS:  
+STATUS: Identifying matching symbols automatically...started at Thursday, May 20, 2021 14:35:15
+STATUS:  
+   INFO: Symbol "L_PORTOCALIU" created for model "L_PORTOCALIU".
+   INFO: Symbol "L_ALBASTRU" created for model "L_ALBASTRU".
+   INFO: Symbol "L_GALBEN" created for model "L_GALBEN".
+   INFO: Symbol "L_VERDE" created for model "L_VERDE".
+   INFO: Symbol "L_ROSU" created for model "L_ROSU".
+STATUS:  
+STATUS: Completed identifying matching symbols automatically...at Thursday, May 20, 2021 14:35:15
+STATUS:  
+STATUS: 0 Error messages, 0 Warning messages

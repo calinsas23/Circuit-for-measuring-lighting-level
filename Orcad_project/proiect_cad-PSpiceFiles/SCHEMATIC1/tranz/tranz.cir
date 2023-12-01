@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC1-tranz"  [ D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final-Corect\proiect_cad-pspicefiles\schematic1\tranz.sim ] 
+
+** Creating circuit file "tranz.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of D:\Homeworks\An 2 sem 2\Tehnici CAD\Projects\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final-Corect\leduri.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN TEMP -40 60 10 
+.STEP LIN PARAM cursor 0.4 1 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

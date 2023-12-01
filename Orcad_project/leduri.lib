@@ -1,0 +1,28 @@
+* PSpice Model Editor - Version 17.2.0
+
+*$
+.MODEL l_portocaliu D
++ IS=10.000E-21
++ N=1.7228
++ RS=1.8616
+*$
+.MODEL l_albastru D
++ IS=16.925E-18
++ N=3.1189
++ RS=13.701
+*$
+.MODEL l_galben D
++ IS=10.000E-21
++ N=1.7309
++ RS=4.3078
+*$
+.MODEL l_verde D
++ IS=394.47E-15
++ N=4.9992
++ RS=5.9117
+*$
+.MODEL l_rosu D
++ IS=10.000E-21
++ N=1.7370
++ RS=4.2925
+*$

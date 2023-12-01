@@ -1,0 +1,543 @@
+
+**** 05/20/21 01:14:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ddd"  [ D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final\proiect_cad-PSpiceFiles\SCHEMATIC1\ddd.sim ]
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ddd.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of D:\Homeworks\An 2 sem 2\Tehnici CAD\Projects\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_CAD
+R_R22         N23185 0  1G TC=0,0 
+R_R7         N22863 0  1k TC=0,0 
+X_U2B         N22369 SENZOR VCC -VCC SENZOR LM324
+R_R21         0 N23569  499 TC=0,0 
+X_U9C         N23743 LED VCC -VCC N23667 LM324
+X_U3C         N22583 N22401 VCC -VCC LED LM324
+R_R10         N22401 LED  4.99k TC=0,0 
+R_R17         N23743 VCC  1.58k TC=0,0 
+R_R25         N23003 0  1G TC=0,0 
+X_U1B         N22473 DESCAZUT VCC -VCC DESCAZUT LM324
+V_V1         VCC 0 8
+R_R6         N22863 SENZOR  1k TC=0,0 
+R_R18         0 N23743  2k TC=0,0 
+R_R20         N23569 VCC  4.32k TC=0,0 
+R_R4         N22473 VCC  665 TC=0,0 
+R_R26         N23015 VCC  182 TC=0,0 
+X_U8C         N23379 LED VCC -VCC N23367 LM324
+R_R14         N23379 VCC  357 TC=0,0 
+R_R8         N22583 N22571  1k TC=0,0 
+R_R23         N23197 VCC  4.12k TC=0,0 
+R_R24         0 N23197  1k TC=0,0 
+V_V2         -VCC 0 -8
+R_R13         N23367 0  1G TC=0,0 
+R_R1         0 N22369  {R} TC=0,0 
+R_R15         0 N23379  2k TC=0,0 
+R_R2         N22369 VCC  12.1k TC=0,0 
+R_R16         N23667 0  1G TC=0,0 
+R_R27         0 N23015  2k TC=0,0 
+R_R5         N22571 DESCAZUT  1k TC=0,0 
+X_U6C         N23197 LED VCC -VCC N23185 LM324
+R_R19         N23549 0  1G TC=0,0 
+X_U5C         N23569 LED VCC -VCC N23549 LM324
+X_U7C         N23015 LED VCC -VCC N23003 LM324
+X_U4D         N22863 N22571 VCC -VCC N22583 LM324
+R_R3         0 N22473  2k TC=0,0 
+R_R9         N22401 0  1k TC=0,0 
+.PARAM  r=90k
+
+**** RESUMING ddd.cir ****
+.END
+
+**** 05/20/21 01:14:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ddd"  [ D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final\proiect_cad-PSpiceFiles\SCHEMATIC1\ddd.sim ]
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2B.dx        X_U2B.dy        X_U9C.dx        X_U9C.dy        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+               X_U3C.dx        X_U3C.dy        X_U1B.dx        X_U1B.dy        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+               X_U8C.dx        X_U8C.dy        X_U6C.dx        X_U6C.dy        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+               X_U5C.dx        X_U5C.dy        X_U7C.dx        X_U7C.dy        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+               X_U4D.dx        X_U4D.dy        
+          IS  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 05/20/21 01:14:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ddd"  [ D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final\proiect_cad-PSpiceFiles\SCHEMATIC1\ddd.sim ]
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2B.qx        X_U9C.qx        X_U3C.qx        X_U1B.qx        
+               PNP             PNP             PNP             PNP             
+       LEVEL    1               1               1               1            
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          BF  166.7           166.7           166.7           166.7          
+          NF    1               1               1               1            
+          BR    1               1               1               1            
+          NR    1               1               1               1            
+         ISS    0               0               0               0            
+          RE    0               0               0               0            
+          RC    0               0               0               0            
+         CJE    0               0               0               0            
+         VJE     .75             .75             .75             .75         
+         CJC    0               0               0               0            
+         VJC     .75             .75             .75             .75         
+         MJC     .33             .33             .33             .33         
+        XCJC    1               1               1               1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.2             2.2             2.2          
+           D     .52             .52             .52             .52         
+
+
+               X_U8C.qx        X_U6C.qx        X_U5C.qx        X_U7C.qx        
+               PNP             PNP             PNP             PNP             
+       LEVEL    1               1               1               1            
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          BF  166.7           166.7           166.7           166.7          
+          NF    1               1               1               1            
+          BR    1               1               1               1            
+          NR    1               1               1               1            
+         ISS    0               0               0               0            
+          RE    0               0               0               0            
+          RC    0               0               0               0            
+         CJE    0               0               0               0            
+         VJE     .75             .75             .75             .75         
+         CJC    0               0               0               0            
+         VJC     .75             .75             .75             .75         
+         MJC     .33             .33             .33             .33         
+        XCJC    1               1               1               1            
+         CJS    0               0               0               0            
+         VJS     .75             .75             .75             .75         
+          KF    0               0               0               0            
+          AF    1               1               1               1            
+          CN    2.2             2.2             2.2             2.2          
+           D     .52             .52             .52             .52         
+
+
+               X_U4D.qx        
+               PNP             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF  166.7          
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.2          
+           D     .52         
+
+
+**** 05/20/21 01:14:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ddd"  [ D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final\proiect_cad-PSpiceFiles\SCHEMATIC1\ddd.sim ]
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2B.sw2       X_U2B.sw1       X_U2B.sw3       X_U2B.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U9C.sw2       X_U9C.sw1       X_U9C.sw3       X_U9C.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U3C.sw2       X_U3C.sw1       X_U3C.sw3       X_U3C.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U1B.sw2       X_U1B.sw1       X_U1B.sw3       X_U1B.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U8C.sw2       X_U8C.sw1       X_U8C.sw3       X_U8C.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U6C.sw2       X_U6C.sw1       X_U6C.sw3       X_U6C.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U5C.sw2       X_U5C.sw1       X_U5C.sw3       X_U5C.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U7C.sw2       X_U7C.sw1       X_U7C.sw3       X_U7C.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U4D.sw2       X_U4D.sw1       X_U4D.sw3       X_U4D.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+**** 05/20/21 01:14:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ddd"  [ D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final\proiect_cad-PSpiceFiles\SCHEMATIC1\ddd.sim ]
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  LED)    6.2591  (  VCC)    8.0000  ( -VCC)   -8.0000  (N22369)    7.0524     
+
+(N22401)    1.0450 (N22473)    6.0038 (N22571)    3.5236 (N22583)    1.0456     
+
+(N22863)    3.5249 (N23003)    7.3163 (N23015)    7.3327 (N23185)   -7.9943     
+
+(N23197)    1.5626 (N23367)    7.3163 (N23379)    6.7883 (N23549)   -7.9943     
+
+(N23569)     .8284 (N23667)   -7.9943 (N23743)    4.4694 (SENZOR)    7.0498     
+
+(X_U1B.6)    -.0012                   (X_U1B.7)    6.1255                       
+
+(X_U1B.8)    6.1255                   (X_U1B.9)    0.0000                       
+
+(X_U1B.a)    7.9975                   (X_U1B.b)    -.0025                       
+
+(X_U2B.6)    -.0014                   (X_U2B.7)    7.2261                       
+
+(X_U2B.8)    7.2261                   (X_U2B.9)    0.0000                       
+
+(X_U2B.a)    7.9965                   (X_U2B.b)    -.0035                       
+
+(X_U3C.6)    -.0012                   (X_U3C.7)    6.3114                       
+
+(X_U3C.8)    6.3114                   (X_U3C.9)    0.0000                       
+
+(X_U3C.a)    7.9990                   (X_U3C.b)    -.0010                       
+
+(X_U4D.6)-161.6E-06                   (X_U4D.7)     .9217                       
+
+(X_U4D.8)     .9217                   (X_U4D.9)    0.0000                       
+
+(X_U4D.a)     .0025                   (X_U4D.b)   -7.9975                       
+
+(X_U5C.6)    1.4977                   (X_U5C.7)  -10.0250                       
+
+(X_U5C.8)  -10.0250                   (X_U5C.9)    0.0000                       
+
+(X_U5C.a)     .0406                   (X_U5C.b)   -7.9594                       
+
+(X_U6C.6)    1.4966                   (X_U6C.7)  -10.0250                       
+
+(X_U6C.8)  -10.0250                   (X_U6C.9)    0.0000                       
+
+(X_U6C.a)     .0406                   (X_U6C.b)   -7.9594                       
+
+(X_U7C.6)   -1.4071                   (X_U7C.7)    9.3467                       
+
+(X_U7C.8)    9.3467                   (X_U7C.9)    0.0000                       
+
+(X_U7C.a)    7.9594                   (X_U7C.b)    -.0406                       
+
+(X_U8C.6)   -1.4071                   (X_U8C.7)    9.3467                       
+
+(X_U8C.8)    9.3467                   (X_U8C.9)    0.0000                       
+
+(X_U8C.a)    7.9594                   (X_U8C.b)    -.0406                       
+
+(X_U9C.6)    1.4921                   (X_U9C.7)  -10.0250                       
+
+(X_U9C.8)  -10.0250                   (X_U9C.9)    0.0000                       
+
+(X_U9C.a)     .0406                   (X_U9C.b)   -7.9594                       
+
+(DESCAZUT)    6.0016                  (X_U1B.10)    6.6091                      
+
+(X_U1B.11)   -7.9605                  (X_U1B.12)   -7.9626                      
+
+(X_U1B.13)    6.5953                  (X_U1B.14)    6.5960                      
+
+(X_U1B.53)    6.5000                  (X_U1B.54)   -7.1780                      
+
+(X_U1B.90)    2.4779                  (X_U1B.91)   40.0000                      
+
+(X_U1B.92)  -40.0000                  (X_U1B.99)    0.0000                      
+
+(X_U2B.10)    7.6573                  (X_U2B.11)   -7.9605                      
+
+(X_U2B.12)   -7.9630                  (X_U2B.13)    7.6435                      
+
+(X_U2B.14)    7.6444                  (X_U2B.53)    6.5000                      
+
+(X_U2B.54)   -7.1780                  (X_U2B.90)    3.5262                      
+
+(X_U2B.91)   40.0000                  (X_U2B.92)  -40.0000                      
+
+(X_U2B.99)    0.0000                  (X_U3C.10)    1.6527                      
+
+(X_U3C.11)   -7.9602                  (X_U3C.12)   -7.9608                      
+
+(X_U3C.13)    1.6388                  (X_U3C.14)    1.6390                      
+
+(X_U3C.53)    6.5000                  (X_U3C.54)   -7.1780                      
+
+(X_U3C.90)    1.0447                  (X_U3C.91)   40.0000                      
+
+(X_U3C.92)  -40.0000                  (X_U3C.99)    0.0000                      
+
+(X_U4D.10)    4.1312                  (X_U4D.11)   -7.9604                      
+
+(X_U4D.12)   -7.9617                  (X_U4D.13)    4.1174                      
+
+(X_U4D.14)    4.1178                  (X_U4D.53)    6.5000                      
+
+(X_U4D.54)   -7.1780                  (X_U4D.90)   -2.4781                      
+
+(X_U4D.91)   40.0000                  (X_U4D.92)  -40.0000                      
+
+(X_U4D.99)    0.0000                  (X_U5C.10)    1.4677                      
+
+(X_U5C.11)   -8.0000                  (X_U5C.12)   -7.9210                      
+
+(X_U5C.13)    1.4677                  (X_U5C.14)    1.4400                      
+
+(X_U5C.53)    6.5000                  (X_U5C.54)   -7.1780                      
+
+(X_U5C.90)  -40.6100                  (X_U5C.91)   40.0000                      
+
+(X_U5C.92)  -40.0000                  (X_U5C.99)    0.0000                      
+
+(X_U6C.10)    2.2016                  (X_U6C.11)   -8.0000                      
+
+(X_U6C.12)   -7.9213                  (X_U6C.13)    2.2016                      
+
+(X_U6C.14)    2.1741                  (X_U6C.53)    6.5000                      
+
+(X_U6C.54)   -7.1780                  (X_U6C.90)  -40.6100                      
+
+(X_U6C.91)   40.0000                  (X_U6C.92)  -40.0000                      
+
+(X_U6C.99)    0.0000                  (X_U7C.10)    6.8969                      
+
+(X_U7C.11)   -7.9232                  (X_U7C.12)   -8.0000                      
+
+(X_U7C.13)    6.8700                  (X_U7C.14)    6.8969                      
+
+(X_U7C.53)    6.5000                  (X_U7C.54)   -7.1780                      
+
+(X_U7C.90)   40.6080                  (X_U7C.91)   40.0000                      
+
+(X_U7C.92)  -40.0000                  (X_U7C.99)    0.0000                      
+
+(X_U8C.10)    6.8969                  (X_U8C.11)   -7.9232                      
+
+(X_U8C.12)   -8.0000                  (X_U8C.13)    6.8700                      
+
+(X_U8C.14)    6.8969                  (X_U8C.53)    6.5000                      
+
+(X_U8C.54)   -7.1780                  (X_U8C.90)   40.6080                      
+
+(X_U8C.91)   40.0000                  (X_U8C.92)  -40.0000                      
+
+(X_U8C.99)    0.0000                  (X_U9C.10)    5.1076                      
+
+(X_U9C.11)   -8.0000                  (X_U9C.12)   -7.9225                      
+
+(X_U9C.13)    5.1076                  (X_U9C.14)    5.0805                      
+
+(X_U9C.53)    6.5000                  (X_U9C.54)   -7.1780                      
+
+(X_U9C.90)  -40.6100                  (X_U9C.91)   40.0000                      
+
+(X_U9C.92)  -40.0000                  (X_U9C.99)    0.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -3.864E-02
+    V_V2         1.847E-02
+    X_U2B.vb    -1.386E-08
+    X_U2B.vc    -1.364E-06
+    X_U2B.ve     1.521E-11
+    X_U2B.vlim   3.526E-03
+    X_U2B.vlp   -3.647E-11
+    X_U2B.vln   -4.353E-11
+    X_U9C.vb     1.492E-05
+    X_U9C.vc     1.450E-11
+    X_U9C.ve    -4.061E-02
+    X_U9C.vlim  -4.061E-02
+    X_U9C.vlp   -8.061E-11
+    X_U9C.vln    1.378E-05
+    X_U3C.vb    -1.195E-08
+    X_U3C.vc     2.417E-13
+    X_U3C.ve     1.442E-11
+    X_U3C.vlim   1.045E-03
+    X_U3C.vlp   -3.896E-11
+    X_U3C.vln   -4.105E-11
+    X_U1B.vb    -1.167E-08
+    X_U1B.vc     4.992E-13
+    X_U1B.ve     1.416E-11
+    X_U1B.vlim   2.478E-03
+    X_U1B.vlp   -3.752E-11
+    X_U1B.vln   -4.248E-11
+    X_U8C.vb    -1.407E-05
+    X_U8C.vc    -4.061E-02
+    X_U8C.ve     1.548E-11
+    X_U8C.vlim   4.061E-02
+    X_U8C.vlp    1.288E-05
+    X_U8C.vln   -8.061E-11
+    X_U6C.vb     1.497E-05
+    X_U6C.vc     1.450E-11
+    X_U6C.ve    -4.061E-02
+    X_U6C.vlim  -4.061E-02
+    X_U6C.vlp   -8.061E-11
+    X_U6C.vln    1.383E-05
+    X_U5C.vb     1.498E-05
+    X_U5C.vc     1.450E-11
+    X_U5C.ve    -4.061E-02
+    X_U5C.vlim  -4.061E-02
+    X_U5C.vlp   -8.061E-11
+    X_U5C.vln    1.384E-05
+    X_U7C.vb    -1.407E-05
+    X_U7C.vc    -4.061E-02
+    X_U7C.ve     1.548E-11
+    X_U7C.vlim   4.061E-02
+    X_U7C.vlp    1.288E-05
+    X_U7C.vln   -8.061E-11
+    X_U4D.vb    -1.616E-09
+    X_U4D.vc     5.455E-12
+    X_U4D.ve     9.207E-12
+    X_U4D.vlim  -2.478E-03
+    X_U4D.vlp   -4.248E-11
+    X_U4D.vln   -3.753E-11
+
+    TOTAL POWER DISSIPATION   6.76E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/20/21 01:14:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ddd"  [ D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final\proiect_cad-PSpiceFiles\SCHEMATIC1\ddd.sim ]
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

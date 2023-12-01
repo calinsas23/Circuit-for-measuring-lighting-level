@@ -1,0 +1,249 @@
+("l_albastru"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+            )
+            ("RS"
+                ("units"	"Ohm")
+            )
+            ("N"
+                ("units"	"")
+            )
+            ("TT"
+                ("units"	"sec")
+            )
+            ("CJO"
+                ("units"	"F")
+            )
+            ("VJ"
+                ("units"	"V")
+            )
+            ("M"
+                ("units"	"")
+            )
+            ("EG"
+                ("units"	"eV")
+            )
+            ("XTI"
+                ("units"	"")
+            )
+            ("KF"
+                ("units"	"")
+            )
+            ("AF"
+                ("units"	"")
+            )
+            ("FC"
+                ("units"	"")
+            )
+            ("BV"
+                ("units"	"V")
+            )
+            ("IBV"
+                ("units"	"A")
+            )
+        )
+    )
+)
+("l_galben"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+            )
+            ("RS"
+                ("units"	"Ohm")
+            )
+            ("N"
+                ("units"	"")
+            )
+            ("TT"
+                ("units"	"sec")
+            )
+            ("CJO"
+                ("units"	"F")
+            )
+            ("VJ"
+                ("units"	"V")
+            )
+            ("M"
+                ("units"	"")
+            )
+            ("EG"
+                ("units"	"eV")
+            )
+            ("XTI"
+                ("units"	"")
+            )
+            ("KF"
+                ("units"	"")
+            )
+            ("AF"
+                ("units"	"")
+            )
+            ("FC"
+                ("units"	"")
+            )
+            ("BV"
+                ("units"	"V")
+            )
+            ("IBV"
+                ("units"	"A")
+            )
+        )
+    )
+)
+("l_portocaliu"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+)
+("l_rosu"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+            )
+            ("RS"
+                ("units"	"Ohm")
+            )
+            ("N"
+                ("units"	"")
+            )
+            ("TT"
+                ("units"	"sec")
+            )
+            ("CJO"
+                ("units"	"F")
+            )
+            ("VJ"
+                ("units"	"V")
+            )
+            ("M"
+                ("units"	"")
+            )
+            ("EG"
+                ("units"	"eV")
+            )
+            ("XTI"
+                ("units"	"")
+            )
+            ("KF"
+                ("units"	"")
+            )
+            ("AF"
+                ("units"	"")
+            )
+            ("FC"
+                ("units"	"")
+            )
+            ("BV"
+                ("units"	"V")
+            )
+            ("IBV"
+                ("units"	"A")
+            )
+        )
+    )
+)
+("l_verde"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"AN")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops")
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+            )
+            ("RS"
+                ("units"	"Ohm")
+            )
+            ("N"
+                ("units"	"")
+            )
+            ("TT"
+                ("units"	"sec")
+            )
+            ("CJO"
+                ("units"	"F")
+            )
+            ("VJ"
+                ("units"	"V")
+            )
+            ("M"
+                ("units"	"")
+            )
+            ("EG"
+                ("units"	"eV")
+            )
+            ("XTI"
+                ("units"	"")
+            )
+            ("KF"
+                ("units"	"")
+            )
+            ("AF"
+                ("units"	"")
+            )
+            ("FC"
+                ("units"	"")
+            )
+            ("BV"
+                ("units"	"V")
+            )
+            ("IBV"
+                ("units"	"A")
+            )
+        )
+    )
+)

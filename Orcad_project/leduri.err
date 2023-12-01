@@ -1,0 +1,7 @@
+STATUS: PSpice Schematics to Capture translator (17.2.0.d001)
+STATUS:  
+STATUS: Translator started at Thursday, May 20, 2021 14:35:15
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.2\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'D:\Homeworks\An 2 sem 2\Tehnici CAD\Proiect-final\Final\leduri.olb'.
+STATUS: Translator stopped at Thursday, May 20, 2021 14:35:17
+STATUS: 0 Error messages, 0 Warning messages
